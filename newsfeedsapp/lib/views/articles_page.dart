@@ -55,7 +55,7 @@ Widget _articlesContainer(data, context) {
     },
     child: Container(
       padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
-      height: 380,
+      height: 410,
       child: Container(
         color: Colors.white,
         child: Column(
@@ -78,7 +78,7 @@ Widget _articlesContainer(data, context) {
               Padding(
                 padding: EdgeInsets.fromLTRB(15, 5, 10, 10),
                 child: Text(
-                  "By " + data.author,
+                  "By " + data.ArticleAuthor(),
                   textAlign: TextAlign.start,
                   style: TextStyle(
                       fontSize: 15, color: Color.fromRGBO(153, 153, 153, 1)),
